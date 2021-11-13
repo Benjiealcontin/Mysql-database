@@ -5,7 +5,7 @@ const dbConfig = {
   user: "root",
   password: "",
   port: 3306,
-  database: "class-record"
+  database: "records"
 }
 
 const db = mysql.createPool(dbConfig)

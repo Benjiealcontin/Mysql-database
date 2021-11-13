@@ -14,9 +14,7 @@ const Students = require('../src/routes/Students')
 
 app.use('/Students', Students)
 
-
-
-
+// app.use('/api/auth', require('./routes/auth'));
 
 
 const port = 3000
